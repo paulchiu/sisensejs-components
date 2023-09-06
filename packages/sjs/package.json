@@ -2,18 +2,11 @@
   "name": "@paulchiu/sjs",
   "version": "0.0.11",
   "description": "A component-based way to embed SisenseJS into your application.",
-  "author": "Sisense Inc. <github@paulchiu.com> (https://www.sisense.com/)",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.js",
-  "es2015": "dist/esm/index.mjs",
-  "es2017": "dist/esm/index.mjs",
-  "types": "dist/types/index.d.ts",
-  "collection": "dist/collection/collection-manifest.json",
-  "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/sjs/sjs.esm.js",
+  "author": "Sisense Inc. <github@sisense.com> (https://www.sisense.com/)",
+  "main": "dist/index.js",
   "files": [
-    "dist/",
-    "loader/"
+    "src",
+    "dist"
   ],
   "scripts": {
     "build": "stencil build --docs",
@@ -27,8 +20,8 @@
     "generate": "stencil generate"
   },
   "dependencies": {
-    "@stencil/core": "^2.18.0",
-    "@stencil/react-output-target": "^0.3.1"
+    "@stencil/core": "^4.2.0",
+    "@stencil/react-output-target": "^0.5.3"
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
