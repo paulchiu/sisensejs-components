@@ -3,7 +3,6 @@
   "version": "0.0.11",
   "description": "A component-based way to embed SisenseJS into your application.",
   "author": "Sisense Inc. <github@paulchiu.com> (https://www.sisense.com/)",
-  "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
