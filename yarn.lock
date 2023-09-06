@@ -1735,45 +1735,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@samverschueren/stream-to-observable@npm:^0.3.0":
-  version: 0.3.1
-  resolution: "@samverschueren/stream-to-observable@npm:0.3.1"
-  dependencies:
-    any-observable: ^0.3.0
-  peerDependenciesMeta:
-    rxjs:
-      optional: true
-    zen-observable:
-      optional: true
-  checksum: 8ec6d43370f419975295f306699f87989dd64a099a29cf62ddacbbbe32df634f87451504d340e15321e74b0a3ca8a9b447736472f792102e234faa207395e6c9
-  languageName: node
-  linkType: hard
-
-"@sindresorhus/is@npm:^0.14.0":
-  version: 0.14.0
-  resolution: "@sindresorhus/is@npm:0.14.0"
-  checksum: 971e0441dd44ba3909b467219a5e242da0fc584048db5324cfb8048148fa8dcc9d44d71e3948972c4f6121d24e5da402ef191420d1266a95f713bb6d6e59c98a
-  languageName: node
-  linkType: hard
-
-"@sinonjs/commons@npm:^1.7.0":
-  version: 1.8.3
-  resolution: "@sinonjs/commons@npm:1.8.3"
-  dependencies:
-    type-detect: 4.0.8
-  checksum: 6159726db5ce6bf9f2297f8427f7ca5b3dff45b31e5cee23496f1fa6ef0bb4eab878b23fb2c5e6446381f6a66aba4968ef2fc255c1180d753d4b8c271636a2e5
-  languageName: node
-  linkType: hard
-
-"@sinonjs/fake-timers@npm:^8.0.1":
-  version: 8.1.0
-  resolution: "@sinonjs/fake-timers@npm:8.1.0"
-  dependencies:
-    "@sinonjs/commons": ^1.7.0
-  checksum: 09b5a158ce013a6c37613258bad79ca4efeb99b1f59c41c73cca36cac00b258aefcf46eeea970fccf06b989414d86fe9f54c1102272c0c3bdd51a313cea80949
-  languageName: node
-  linkType: hard
-
 "@paulchiu/sjs-react@workspace:^, @paulchiu/sjs-react@workspace:packages/sjs-react":
   version: 0.0.0-use.local
   resolution: "@paulchiu/sjs-react@workspace:packages/sjs-react"
@@ -1814,6 +1775,45 @@ __metadata:
     typescript: ^4.8.3
   languageName: unknown
   linkType: soft
+
+"@samverschueren/stream-to-observable@npm:^0.3.0":
+  version: 0.3.1
+  resolution: "@samverschueren/stream-to-observable@npm:0.3.1"
+  dependencies:
+    any-observable: ^0.3.0
+  peerDependenciesMeta:
+    rxjs:
+      optional: true
+    zen-observable:
+      optional: true
+  checksum: 8ec6d43370f419975295f306699f87989dd64a099a29cf62ddacbbbe32df634f87451504d340e15321e74b0a3ca8a9b447736472f792102e234faa207395e6c9
+  languageName: node
+  linkType: hard
+
+"@sindresorhus/is@npm:^0.14.0":
+  version: 0.14.0
+  resolution: "@sindresorhus/is@npm:0.14.0"
+  checksum: 971e0441dd44ba3909b467219a5e242da0fc584048db5324cfb8048148fa8dcc9d44d71e3948972c4f6121d24e5da402ef191420d1266a95f713bb6d6e59c98a
+  languageName: node
+  linkType: hard
+
+"@sinonjs/commons@npm:^1.7.0":
+  version: 1.8.3
+  resolution: "@sinonjs/commons@npm:1.8.3"
+  dependencies:
+    type-detect: 4.0.8
+  checksum: 6159726db5ce6bf9f2297f8427f7ca5b3dff45b31e5cee23496f1fa6ef0bb4eab878b23fb2c5e6446381f6a66aba4968ef2fc255c1180d753d4b8c271636a2e5
+  languageName: node
+  linkType: hard
+
+"@sinonjs/fake-timers@npm:^8.0.1":
+  version: 8.1.0
+  resolution: "@sinonjs/fake-timers@npm:8.1.0"
+  dependencies:
+    "@sinonjs/commons": ^1.7.0
+  checksum: 09b5a158ce013a6c37613258bad79ca4efeb99b1f59c41c73cca36cac00b258aefcf46eeea970fccf06b989414d86fe9f54c1102272c0c3bdd51a313cea80949
+  languageName: node
+  linkType: hard
 
 "@stencil/core@npm:^2.18.0":
   version: 2.18.0
