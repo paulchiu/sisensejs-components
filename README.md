@@ -10,8 +10,8 @@ These libraries make it easier to embed [SisenseJS]-based widgets in modern web 
 
 ## Packages
 
- - **[`@sisense/sjs`]** is the core library, based on WebComponents, and can be used with vanilla Javascript or Typescript client applications
- - **[`@sisense/sjs-react`]** is a `React` component version of [`@sisense/sjs`]
+ - **[`@paulchiu/sjs`]** is the core library, based on WebComponents, and can be used with vanilla Javascript or Typescript client applications
+ - **[`@paulchiu/sjs-react`]** is a `React` component version of [`@paulchiu/sjs`]
 
 ## Using these packages
 
@@ -23,5 +23,5 @@ You can find several examples of using these libraries in the [/examples](/examp
 
 
 [SisenseJS]: https://sisense.dev/guides/embedding/sisense.js.html  "SisenseJS documentation"
-[`@sisense/sjs`]: https://github.com/sisense/sisensejs-components/pkgs/npm/sjs
-[`@sisense/sjs-react`]: https://github.com/sisense/sisensejs-components/pkgs/npm/sjs-react
+[`@paulchiu/sjs`]: https://github.com/sisense/sisensejs-components/pkgs/npm/sjs
+[`@paulchiu/sjs-react`]: https://github.com/sisense/sisensejs-components/pkgs/npm/sjs-react

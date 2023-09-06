@@ -3,7 +3,7 @@ import {
 	SisenseDashboard,
 	SisenseFilters,
 	SisenseWidget
-} from "@sisense/sjs-react";
+} from "@paulchiu/sjs-react";
 import { useRef } from "react";
 
 function App() {

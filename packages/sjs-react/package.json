@@ -1,9 +1,9 @@
 {
-  "name": "@sisense/sjs-react",
+  "name": "@paulchiu/sjs-react",
   "sideEffects": false,
   "version": "0.0.9",
   "description": "A component-based way to embed SisenseJS into your React application.",
-  "author": "Sisense Inc. <github@sisense.com> (https://www.sisense.com/)",
+  "author": "Sisense Inc. <github@paulchiu.com> (https://www.sisense.com/)",
   "scripts": {
     "build": "yarn run clean && yarn run compile",
     "dev.react": "yarn run build",
@@ -43,6 +43,6 @@
     ]
   },
   "dependencies": {
-    "@sisense/sjs": "workspace:^"
+    "@paulchiu/sjs": "workspace:^"
   }
 }

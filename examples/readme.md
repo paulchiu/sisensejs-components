@@ -1,6 +1,6 @@
 # SisenseJS Components - Examples
 
-This directory contains multiple examples for using the `@sisense/sjs` and `@sisense/sjs-react` packages.
+This directory contains multiple examples for using the `@paulchiu/sjs` and `@paulchiu/sjs-react` packages.
 
 ## Setting up examples
 

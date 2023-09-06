@@ -1,6 +1,6 @@
-`@sisense/sjs`
+`@paulchiu/sjs`
 
-This is a library that wraps SisenseJS to provide a cleaner and easier to use interface, either in vanilla web component form (this package), or in React component form (`@sisense./sjs-react`).
+This is a library that wraps SisenseJS to provide a cleaner and easier to use interface, either in vanilla web component form (this package), or in React component form (`@paulchiu./sjs-react`).
 
 This is the base package in the monorepo. `sjs-react` depends on this and various demos/examples either depend on `sjs-react` or this package. Therefore, it needs to be built first.
 

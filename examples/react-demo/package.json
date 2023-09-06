@@ -9,7 +9,7 @@
     "test": "echo \"No test specified\" && exit 0"
   },
   "keywords": [],
-  "author": "Sisense Inc. <github@sisense.com> (https://www.sisense.com/)",
+  "author": "Sisense Inc. <github@paulchiu.com> (https://www.sisense.com/)",
   "devDependencies": {
     "@babel/core": "^7.17.2",
     "@babel/plugin-transform-async-to-generator": "^7.16.8",
@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.17.9",
-    "@sisense/sjs-react": "workspace:^",
+    "@paulchiu/sjs-react": "workspace:^",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

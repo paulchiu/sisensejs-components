@@ -18,6 +18,6 @@ jobs:
       - run: ls -lha
       - run: yarn config set npmPublishRegistry https://npm.pkg.github.com
       - run: yarn config set npmAuthIdent "${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}"
-      - run: yarn workspace @sisense/sjs npm publish
-      - run: yarn workspace @sisense/sjs-react npm publish
+      - run: yarn workspace @paulchiu/sjs npm publish
+      - run: yarn workspace @paulchiu/sjs-react npm publish
 

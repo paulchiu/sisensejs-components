@@ -2,7 +2,7 @@ import {
   SisenseApp,
   SisenseDashboard,
   SisenseWidget
-} from "@sisense/sjs-react";
+} from "@paulchiu/sjs-react";
 import {useRef, useState} from "react";
 
 const SISENSE_URL = 'https://example.com';
