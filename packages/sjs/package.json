@@ -1,6 +1,6 @@
 {
   "name": "@paulchiu/sjs",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "A component-based way to embed SisenseJS into your application.",
   "author": "Sisense Inc. <github@paulchiu.com> (https://www.sisense.com/)",
   "main": "dist/index.cjs.js",

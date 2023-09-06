@@ -25,3 +25,15 @@ You can find several examples of using these libraries in the [/examples](/examp
 [SisenseJS]: https://sisense.dev/guides/embedding/sisense.js.html  "SisenseJS documentation"
 [`@paulchiu/sjs`]: https://github.com/sisense/sisensejs-components/pkgs/npm/sjs
 [`@paulchiu/sjs-react`]: https://github.com/sisense/sisensejs-components/pkgs/npm/sjs-react
+
+## Build and publish
+
+Before publishing, remember to bump package versions.
+
+```shell
+yarn install
+yarn build
+yarn npm login
+yarn workspace @paulchiu/sjs npm publish --access public
+yarn workspace @paulchiu/sjs-react npm publish --access public
+```
