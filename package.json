@@ -1,7 +1,7 @@
 {
   "name": "sisensejs-components-monorepo",
   "packageManager": "yarn@3.2.3",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "yarn dev.react",
     "lint": "yarn workspace @paulchiu/sjs lint",
